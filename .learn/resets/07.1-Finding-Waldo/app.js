@@ -2,11 +2,11 @@ var people = [ 'Lebron','Aaliyah','Diamond','Dominique','Aliyah','Jazmin','Darne
 
 
 let inicio = 0
-let fin = people.length
+let fin = people.lenght
 
 
 for(let number = inicio; number < fin; number++){
-    if (people[number].toLowerCase() = 'waldo') {
+    if people[number].toLowerCase = waldo {
         console.log(number)
     }
     else {}
