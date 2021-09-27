@@ -3,16 +3,4 @@ let counts = {};
 
 // your code here
 
-for(let i in par){
-    let letra = par[i].toLowerCase(); 
-
-    if (letra == " ") continue;
-    else if (counts[letra] == undefined ){
-        counts[letra] = 1;
-    } else {
-        counts[letra] = counts[letra] + 1;
-    }
-}
-
-
 console.log(counts);

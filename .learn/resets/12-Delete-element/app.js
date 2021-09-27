@@ -1,10 +1,6 @@
 var people = ['juan','ana','michelle','daniella','stefany','lucy','barak', 'emilio'];
 
-function deletePerson(nombre) {
-    let newArray = people.filter((i) => i !== nombre);
-    return newArray    
-}
-
+//your code below
 
 console.log(deletePerson('daniella'));
 console.log(deletePerson('juan'));
