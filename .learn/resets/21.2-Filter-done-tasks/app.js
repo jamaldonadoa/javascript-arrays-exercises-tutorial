@@ -9,18 +9,4 @@ let tasks = [
 	{ label: 'Make a trip', done: false }
 ];
 
-for (let i = 0; i < array.length; i++) {
-	const element = array i];
-	
-}
-
-
-var todo = tasks.filter (function(hecho){
-    if (hecho == "false" ) {
-        return hecho  
-    }
-}
-
-)
-
-console.log(todo);
+//your code here
