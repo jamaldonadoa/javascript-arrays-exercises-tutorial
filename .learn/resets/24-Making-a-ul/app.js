@@ -9,14 +9,12 @@ let allColors = [
 ];
 
 function generateLI(color){
-	return "<li>" + color.label + "</li>"
-  }
+	// your code here
+}
 
-  function filterColors(color){
-	if(color.sexy === true){
-	  return color.label
-	}
-  }
+function filterColors(color){
+	// your code here
+}
 
 function generateHTMLFromArray(array){
 	
